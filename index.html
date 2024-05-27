@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<title>Q4-SW2: Temperature Converter</title>
+	<div id = "calculator">
+	<link rel="stylesheet" href="style.css" />
+
+</head>
+	<center><img id = "thermometer" src="https://thumbs.dreamstime.com/z/thermometer-icons-hot-cold-temperature-symbol-meteorology-weather-measurement-heat-celsius-fahrenheit-scale-183262265.jpg?w=768" width="480" height="300"></center>
+
+	<header><b>Temperature Converter</b></header>
+<body>
+
+	<!-- Create input field -->
+<div id = "input">
+<label>Fahrenheit:</label><input id = "fahr" type = "number"
+size = "20" onkeyup = "convert('fahrenheit')">
+</div>
+
+<!-- Create input field -->
+<div id = "input">
+<label>Celsius:</label><input id = "cels" type = "number" size
+= "20" onkeyup ="convert('celsius')">
+</div>
+<!-- Create input field -->
+<div id = "input">
+<label>Kelvin:</label><input id = "kel" type = "number" size =
+"20" onkeyup ="convert('kelvin')">
+</div>
+
+<!-- Create button -->
+<button type = "button" onclick="reset();">Clear Fields</button>
+<!-- Start Javascript code -->
+<script src="main.js"></script>
+
+
+</body>
+</div>
+</html>
+
+
+
+
+
+
+
+
